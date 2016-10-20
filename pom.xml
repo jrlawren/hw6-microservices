@@ -15,7 +15,10 @@
 		<module>commerce-hystrix-dashboard</module>
 		<module>commerce-item-service</module>
 		<module>commerce-price-service</module>
+		
 		<module>commerce-ui</module>
+
+		<module>commerce-ui3</module>
 	</modules>
 
 	<parent>
@@ -31,7 +34,7 @@
 	</properties>
 
 	<dependencyManagement>
-		<dependencies>
+		<dependencies>		
 			<dependency>
 				<groupId>io.pivotal.spring.cloud</groupId>
 				<artifactId>spring-cloud-services-dependencies</artifactId>
